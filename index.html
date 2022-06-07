@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+<title>Tic-Tac-Toe</title>
+</head>
+<body>
+ <h1>Tic-Tac-Toe</h1> 
+ <h2 class="announcer">Choose your mark</h2>
+ <table class="setup-table">
+   <tr>
+     <td class="header">Mark</td>
+     <td class="mark td-hover" >X</td>
+     <td class="mark td-hover" >O</td>
+   </tr>
+   <tr>
+     <td colspan="3" class="td-hover">VS Computer</td>
+   </tr>
+ </table>
+ <form action="#">
+   <label for="fname">First player name
+   <input type="text" name="" id="fname" required>
+   </label>
+   <label for="sname">Second player name
+   <input type="text" name="" id="sname" required>
+   </label>
+   <button class="start-button" type="submit">Start</button>
+ </form>
+ <table class="gameboard">
+   <tr>
+     <td data-index="0"></td>
+     <td data-index="1"></td>
+     <td data-index="2"></td>
+   </tr>
+   <tr>
+     <td data-index="3"></td>
+     <td data-index="4"></td>
+     <td data-index="5"></td>
+   </tr>
+   <tr>
+     <td data-index="6"></td>
+     <td data-index="7"></td>
+     <td data-index="8"></td>
+   </tr>
+ </table>
+</body>
+</html>
